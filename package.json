@@ -1,0 +1,22 @@
+{
+  "devDependencies": {
+    "ethers": "6.17.0",
+    "linkedom": "^0.18.12",
+    "sharp": "^0.35.5"
+  },
+  "type": "module",
+  "scripts": {
+    "build": "node build-ranked.mjs",
+    "test": "node check-wheel.mjs && node check-challenges.cjs && node check-i18n.cjs && node check-hub.cjs && node check-hub-ui.cjs && node check-endless.cjs && node check-leaderboard.mjs",
+    "postinstall": "node scripts/vendor.mjs",
+    "prebuild": "node scripts/vendor.mjs"
+  },
+  "name": "hamster-wheelbound-trails",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Bilingual hamster platformer with reproducible Squeekchain settled-round challenges",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/houhailin2235-design/hamster-wheelbound-trails.git"
+  }
+}

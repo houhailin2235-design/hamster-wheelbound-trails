@@ -1,0 +1,6 @@
+{
+  "name": "hamster-wheelbound-trails",
+  "main": "dist/server/index.js",
+  "compatibility_date": "2026-11-08",
+  "d1_databases": [{"binding":"DB","database_name":"hamster-wheelbound","database_id":"REPLACE_WITH_YOUR_D1_ID","migrations_dir":"drizzle"}]
+}

@@ -1,0 +1,9 @@
+node_modules/
+.wrangler/
+.env*
+.dev.vars*
+outputs/
+
+dist/
+web/ethers.umd.min.js
+wrangler.jsonc

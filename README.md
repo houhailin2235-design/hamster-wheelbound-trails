@@ -84,6 +84,10 @@ Tests use in-memory SQLite and synthetic wallets. No fake scores or test wallets
 
 Independent community project; not an official Squeekchain product. Game art was AI-generated from a user-provided character reference and project briefs. Third-party Ethers browser distribution retains its license header. Sharp and LinkeDOM are development dependencies.
 
-The exact Genesis repository verification line must be added when Squeekchain supplies it. No verification or approval is claimed yet.
+## Genesis project attribution
+
+squeekchain-project: 05159a7f-d75c-445e-900a-844620793a46
+
+Verification identifiers establish project ownership; they do not claim project approval.
 
 The source distribution includes optimized WebP game art. `npm ci` restores the pinned Ethers browser bundle from npm; generated bundles, local settings and credentials are excluded from Git.
